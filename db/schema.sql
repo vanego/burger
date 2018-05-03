@@ -9,5 +9,5 @@ CREATE TABLE burgers
     (ID),
     burgerName VARCHAR
     (45) NOT NULL,
-    devoured BOOLEAN
+    devoured BOOLEAN default 0
 );

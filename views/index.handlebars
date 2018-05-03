@@ -2,6 +2,9 @@
 
 <h2>Burgers are delicious!</h2>
 
+<ul>
+    {{#each burgers}} {{#if devoured}} {{> divs/burger-block devoured=false}} {{/if}} {{/each}}
+</ul>
 
 <h2>Add a Burger</h2>
 <form class="create-form">
